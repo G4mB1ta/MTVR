@@ -10,7 +10,7 @@ public class Vehicle {
     private int ownerId;
     private String brand;
     private String model;
-    private int manufacureYear;
+    private int manufactureYear;
 
     public Vehicle() {
     }
@@ -21,7 +21,7 @@ public class Vehicle {
         this.ownerId = ownerId;
         this.brand = brand;
         this.model = model;
-        this.manufacureYear = manufacureYear;
+        this.manufactureYear = manufacureYear;
     }
 
     public int getVehicleId() {
@@ -64,11 +64,11 @@ public class Vehicle {
         this.model = model;
     }
 
-    public int getManufacureYear() {
-        return manufacureYear;
+    public int getManufactureYear() {
+        return manufactureYear;
     }
 
-    public void setManufacureYear(int manufacureYear) {
-        this.manufacureYear = manufacureYear;
+    public void setManufactureYear(int manufacureYear) {
+        this.manufactureYear = manufacureYear;
     }
 }
